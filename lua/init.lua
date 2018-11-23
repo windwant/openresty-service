@@ -1,7 +1,7 @@
 local cjson = require "cjson";
 local configCache = ngx.shared.config_cache;
 
-local resourcesFile =  io.open("/opt/soft/openresty-test/config/resources.properties", "r");
+local resourcesFile =  io.open("/opt/soft/openresty-service/config/resources.properties", "r");
 local resourcesStr = resourcesFile:read("*a");
 resourcesFile:close();
 
