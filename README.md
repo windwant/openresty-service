@@ -1,4 +1,4 @@
-# openresty-test
+# openresty-service
 
 安装 OpenResty
 
